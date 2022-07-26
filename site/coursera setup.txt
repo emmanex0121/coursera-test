@@ -1,0 +1,36 @@
+browser-sync start --server --directory --files "*"
+browser-sync --version
+browser-sync
+
+mkdir site - make a directory site
+git add . (add everything in that dir)
+git status
+git push (sending commited to git server)
+git --version
+
+git commit -m "My First Page" (-m message)
+git commit -m "Small Addition to our Page Content"
+
+git add site/index.html
+git clone https://github.com/emmanex0121/coursera-test.git
+
+git config --global user.name "Phoenix"
+git config --global user.email "emmax0121@gmail.com"
+git checkout gh-pages
+
+npm <command> --location=global
+npm --location=global
+npm config --location=global
+npm config
+npm fund
+npm install -g browser-sync
+npm --version
+
+
+node --version
+
+
+cc-tricks.com
+codepen.io
+jsfiddle.net
+w3 validator
