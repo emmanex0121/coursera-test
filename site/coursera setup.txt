@@ -35,3 +35,7 @@ codepen.io
 jsfiddle.net
 w3 validator
 caniuse.com
+
+
+SEO - Search engine Organisation
+Semantic Elements allow for a more meaningful expression of the structure of our HTML page
