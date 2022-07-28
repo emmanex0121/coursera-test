@@ -39,3 +39,11 @@ caniuse.com
 
 SEO - Search engine Organisation
 Semantic Elements allow for a more meaningful expression of the structure of our HTML page
+
+
+HTML Entities
+&lt; = <
+&amp; = &
+&gt; = >
+&nbsp; = non breaking space
+&copy; = copyright
