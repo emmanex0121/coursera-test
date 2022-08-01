@@ -41,9 +41,79 @@ SEO - Search engine Organisation
 Semantic Elements allow for a more meaningful expression of the structure of our HTML page
 
 
-HTML Entities
+HTML Character Entity References
 &lt; = <
 &amp; = &
 &gt; = >
 &nbsp; = non breaking space
 &copy; = copyright
+
+<section>
+<div>
+<article>
+<span>
+
+Anchor Attributes
+<a href=" " title=" "> Link Tag</a>
+Target="blank" = inside the a tag forces link to new window
+<a name="section6">Section 6</a> aother method to jump to a section
+href="#top" = Back to top of the Page
+
+Fragment identifiers - Used to Jump to different parts of the same page
+
+https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/FAQ.md
+
+https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/FAQ.md#q-how-to-ask-and-get-your-question-answered-a-must-read
+
+https://ClearlyDecoded.com
+http://www.csszengarden.com
+
+CCS SYNTAX
+Selector & Declaration = Property/Value Pair
+Selector - Element, class(.) and ID selector(#)
+Declaration = Property/Value Pair
+
+TO APPLY MUTIPLE CLASSES TO AN ELEMENT IS TO JUST LIST THE CLASSES WITH A SPACE, without a comma.
+Class="class1 class2 class3"
+
+NOT RESTRICTED TO ELEMENTS BUT ALL SELECTORS
+GROUPED SELECTORS(comma)
+Selectors can be grouped using a comma
+div, .blue {color: blue;} - affect both div element and blue class
+COMBINED SELECTORS(.)
+Selectors can be combined by defining without spaces e.g
+**Element WITH CLASS SELECTOR
+p.big {} defines any p element with a big class attribute (selector.class)
+**CHILD(direct) SELECTORS(fwd angular bracket)
+article > p {} = read from left to right i.e every p element that is a direct child of element article (selector > selector)
+**DESCENDANT SELECTOR(space)
+article p {} = every p element inside the article element at any level (selector selector)
+**COMBINING SAME ELEMENT TYPES
+.class2.class1 {} = every element with both class1 and class2 (classclass)
+**ADJACENT SIBLING SELECTOR (selector1 + selector2) = apply to selector2 only if selector 2 comes immediately after selector1
+**GENERAL SIBLING SELECTOR (selector1 ~ selector2) = apply to all selector2 that are siblings of and subsequent to any selector1
+
+PSEUDO-CLASS SELECTOR
+Styling based on user interaction with the page
+selector:pseudo-class {
+...
+}
+pseudo class selectors e.g.,
+:link
+:visited
+:hover
+:active
+:nth-child(...)
+
+:active = user click that element but hasnt released his click i.e., press and hold
+:nth-child(...) = targeted i.e., 
+header li:nth-child(3) {} targets the 3rd li element
+
+CASCADING SPECIFICITY RULE
+STYLE ID CLASS ELEMENT
+
+FONTS
+SIZES = CUMMULATIVE RELATIVE, DONT HAVE AN OVERWRITING FUNCTION
+em - relative
+px - absolute
+% - relative

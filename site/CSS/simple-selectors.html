@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Simple Selectors</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <style>
+        /* all h2 elements */
+        h2 {
+            color: blue;
+            text-align: center;
+            font-family: Cambria;
+        }
+
+        /* all with class="highlight" */
+        .highlight {
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            background-color: red;
+            opacity: .75;
+        }
+
+        /* all element with id=mainpoint */
+        #mainPoint {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: blue;
+            opacity: .8;
+        }
+
+        /* all p and h1 elements */
+        p, h1 {
+            color: purple;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Selectors (h1)</h1>
+    <h2>Subheading 1 (h2)</h2>
+    <p class="highlight">
+        Believe in yourself! Browse our collection of inspirational workout quotes and get 
+        instant exercise and fitness motivation. Transform positive thoughts into positive 
+        actions and get fit, healthy and happy! Say I feel all sad and self-indulgent, then get 
+        stung by a wasp, my misery feels quite abstract and I long just to be in spiritual pain 
+        once more - 'damn you tiny assassin, clad in yellow and black, how I crave my former 
+        innocence where melancholy was my only trial.
+    </p>
+    <p class="highlight">
+        paragraph with attribute class="highlight".A friend once told me that the real message 
+        Bram Stoker sought to convey in 'Dracula' is that a human being needs to live hundreds and 
+        hundreds of years to get all his reading done; 
+    </p>
+
+    <h2>Subheading 2(h2)</h2>
+    <p>
+        that Count Dracula, basically nothing more 
+        than a misunderstood bookworm, was draining blood from the necks of 10,000 hapless virgins 
+        not because he was the apotheosis of pure evil but because it was the only way he could live 
+        long enough to polish off his extensive reading list. But I have no way of knowing if this 
+        is true, as I have not yet found time to read 'Dracula
+    </p>
+
+    <div>This is the main point of the entire article. So <span id="mainPoint">id="mainPoint".</span></div>
+</body>
+</html>
