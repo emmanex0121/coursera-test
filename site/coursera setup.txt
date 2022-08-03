@@ -105,6 +105,13 @@ pseudo class selectors e.g.,
 :active
 :nth-child(...)
 
+STAR SELECTOR (*)
+Apply to every element in the html
+* {instruction; }
+
+horizontal margins accumulate
+vertical margins collapse
+
 :active = user click that element but hasnt released his click i.e., press and hold
 :nth-child(...) = targeted i.e., 
 header li:nth-child(3) {} targets the 3rd li element
@@ -117,3 +124,13 @@ SIZES = CUMMULATIVE RELATIVE, DONT HAVE AN OVERWRITING FUNCTION
 em - relative
 px - absolute
 % - relative
+
+
+THE BOX MODEL
+CONTENT - actual content
+PADDING - area surrouding the content space
+BORDER - area between padding and the margin
+MARGIN - Area around the border
+
+when specifying sides its ⬆️➡️⬇️⬅️ i.e., 
+padding: 2px 2px 2px 2px;
