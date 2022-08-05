@@ -110,7 +110,7 @@ Apply to every element in the html
 * {instruction; }
 
 horizontal margins accumulate
-vertical margins collapse
+vertical margins collapses
 
 :active = user click that element but hasnt released his click i.e., press and hold
 :nth-child(...) = targeted i.e., 
@@ -134,3 +134,22 @@ MARGIN - Area around the border
 
 when specifying sides its ⬆️➡️⬇️⬅️ i.e., 
 padding: 2px 2px 2px 2px;
+
+Default box sizing is content box
+can be reset to content box using
+box-sizing : border-box; style
+
+While FLOATING, use the CLEAR property to resume normal document flow
+FLOATS get out of normal docs flow and placed at top right or left edge of the containing element.
+FLOAT dont hide, they just overlap/collapse
+
+POSITIONING SCHEME (CSS)
+STATIC : normal default document flow/default settings for all elements except html and offsets are ignored when static
+RELATIVE: Element is positioned relative to its position in normal document flow.
+
+Position CSS(offset) properties are:
+top,right,bottom,left
+
+ABSOLUTE: Element is positioned relative to and ancestor with the non static relative position
+
+Offsetting a relative container element also offsets the contents

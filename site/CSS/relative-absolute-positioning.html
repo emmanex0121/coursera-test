@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Relative Absolute Positioning</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <STYle>
+        /* p {
+            background-color: red;
+            position: relative;
+        }
+        #div1 {
+            background: red;
+            height: 80px;
+            width: 80px;
+            position: relative;
+            bottom: -100px;
+            right: -100px;
+        } */
+
+        
+
+        #div2 {
+            background: gray;
+            height: 200px;
+            width: 200px;
+            position: relative;
+        }
+        #div3 {
+            text-align: center;
+            background: blue;
+            height: 50px;
+            width: 50px;
+            /* margin-top: 10px; */
+            position: absolute;
+            top: 10%;
+            left: 15%;
+            /* z-index: 20; */
+          
+        }
+        .flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+        }
+
+       
+        #div4 {
+            text-align: center;
+            background: green;
+            height: 60px;
+            width: 60px;
+            position: absolute;
+            top: 40%;
+            left: 5%;
+        }
+    </STYle>
+</head>
+<body>
+    <!-- <p>p</p>
+        <ul id="div1">
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+        </ul> -->
+
+    <div id="div2">
+        <div id="div3" class="flex">
+            <p>1</p>
+           
+        </div>
+        <div id="div4" class="flex">2</div>
+     
+        
+    </div>
+</body>
+</html>
