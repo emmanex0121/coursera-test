@@ -153,3 +153,29 @@ top,right,bottom,left
 ABSOLUTE: Element is positioned relative to and ancestor with the non static relative position
 
 Offsetting a relative container element also offsets the contents
+
+
+
+MEDIA QUERY
+syntax
+@media (media feature)
+@media (media feature) logical operator (media feature)
+@media (media feature {
+	p {
+		statement;
+	{
+}
+
+using AND - range
+@media (min-width: 8px) and (max-width:9px) {...}
+
+OR is COMMA
+@media (max-width: 76px) , (min-width:90px) {...}
+
+
+RESPOSIVE DESIGN (Adaptive)
+Responsive Site: A site designed to adapt its layout to the viewing environment by using fluid, proportion-based grids, flexible images, asnd CSS3 media queries
+
+
+RESPONSIVE DESIGN
+12 column grid layout
